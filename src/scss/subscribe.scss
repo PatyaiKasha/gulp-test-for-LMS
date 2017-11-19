@@ -1,0 +1,42 @@
+.subscribe {
+    background: #23232e;
+    min-height: 150px;
+    padding: 160px 0 160px 0;
+    .subscribe__inf-logo {
+        background: url(../img/inf-logo.png) 50%;
+        min-height: 100px;
+        background-repeat: no-repeat;
+    }
+    .subscribe__txt {
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        &--width {
+            width: 25%;
+            text-align: center;
+        }
+    }
+    .subscribe-form {
+        display: flex;
+        justify-content: center; // width: 300px;
+    }
+    .subscribe-form__input {
+        padding: 8px 24px 8px 8px;
+        border-radius: 5px;
+        width: 200px;
+        border: transparent;
+    }
+    .subscribe-form__btn {
+        padding: 8px 16px;
+        border-radius: 4px;
+        color: #fff;
+        background: #7b77c9;
+        margin: 0 0 0 8px;
+        width: 100px;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 0 0 10px #6d7590;
+        }
+    }
+}

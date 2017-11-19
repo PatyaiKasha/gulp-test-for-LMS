@@ -1,0 +1,30 @@
+.block1 {
+    min-height: 150px;
+    background: #23232e;
+    padding: 80px 0 24px 0;
+    .block1__logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .block1__title {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 56px;
+    }
+    .block1__title--small {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: #fff;
+    }
+    .block1__scroll-down {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 160px;
+    }
+}

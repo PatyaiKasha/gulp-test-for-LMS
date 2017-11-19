@@ -1,0 +1,37 @@
+.block2 {
+    padding: 120px 0 120px 0;
+    background: #fff;
+    background-image: url(../img/block2-bg.png);
+    background-size: cover;
+    min-height: 100px;
+    .block2__about {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        color: #464b4f;
+    }
+    .block2__vlad-todo {
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        color: #464b4f;
+    }
+    .block2__wid {
+        text-transform: uppercase;
+        font-size: 56px;
+    }
+    .block2__tbd {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+    .block2__template--h3,
+    .block2__brand--h3,
+    .block2__dreams--h3 {
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+}

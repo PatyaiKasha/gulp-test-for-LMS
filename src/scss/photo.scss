@@ -1,0 +1,60 @@
+.photo {
+    min-height: 150px;
+    background: #fff;
+    background-image: url(../img/block2-bg.png);
+    background-size: cover;
+    padding: 0 0 24px 0;
+}
+
+.photo__my-work {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.photo__about {
+    width: 50%;
+    margin: 0 auto;
+    color: #464b4f;
+    text-align: center;
+}
+
+.photo__about--txt {
+    margin-bottom: 56px;
+}
+
+.photo__my-work--h3 {
+    font-size: 56px;
+    text-transform: uppercase;
+    color: #464b4f;
+}
+
+.photo__my-works {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.photo__pic {
+    height: 250px;
+    width: 250px;
+    background: #7b77c9;
+    margin: 8px auto;
+    cursor: pointer;
+}
+
+.photo__btn {
+    padding: 16px 24px;
+    background: #7b77c9;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 32px auto 32px auto;
+    width: 150px;
+    text-align: center;
+    &:hover {
+        box-shadow: 0 0 10px #6d7590;
+    }
+}

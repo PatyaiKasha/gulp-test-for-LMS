@@ -1,0 +1,55 @@
+.footer {
+    min-height: 160px;
+    background: #fff;
+    background-image: url(../img/block2-bg.png);
+    background-size: cover;
+    padding: 96px 0 96px 0;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+    margin-bottom: 96px;
+}
+
+.social__twit {
+    background: url(../img/twit.png);
+}
+
+.social__dribbble {
+    background: url(../img/dribbble.png);
+}
+
+.social__behance {
+    background: url(../img/behance.png);
+}
+
+.social__inst {
+    background: url(../img/insta.png);
+}
+
+.social__twit,
+.social__dribbble,
+.social__behance,
+.social__inst {
+    margin: 16px;
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.copy-made {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy-made__right,
+.copy-made__made {
+    color: #7c7c7c;
+}
